@@ -1,0 +1,25 @@
+.single-button {
+  width: 25%;
+  border: 1px solid black;
+  flex: 1 0 auto;
+  display: inline-flex;
+}
+
+.single-button button {
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  font-size: 19px;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+}
+.single-button.red button {
+  background-color: red;
+  color: white;
+}
+.single-button.wide {
+  width: 50%;
+}
+.single-button:last-child button {
+  margin-right: 0;
+}

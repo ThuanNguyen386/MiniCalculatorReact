@@ -1,0 +1,13 @@
+.grid-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  height: 100%;
+}
+.grid-buttons-row {
+  width: 100%;
+  margin-bottom: 1px;
+  display: flex;
+  flex: 1 0 auto;
+}
